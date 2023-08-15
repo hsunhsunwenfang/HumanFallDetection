@@ -1,0 +1,1014 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2843E98E2A8B7F9900C5786F /* HumanFallDetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E98D2A8B7F9900C5786F /* HumanFallDetectionApp.swift */; };
+		2843E9902A8B7F9900C5786F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E98F2A8B7F9900C5786F /* ContentView.swift */; };
+		2843E9922A8B7F9C00C5786F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843E9912A8B7F9C00C5786F /* Assets.xcassets */; };
+		2843E9952A8B7F9C00C5786F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843E9942A8B7F9C00C5786F /* Preview Assets.xcassets */; };
+		2843E99F2A8B7F9C00C5786F /* HumanFallDetectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E99E2A8B7F9C00C5786F /* HumanFallDetectionTests.swift */; };
+		2843E9A92A8B7F9C00C5786F /* HumanFallDetectionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9A82A8B7F9C00C5786F /* HumanFallDetectionUITests.swift */; };
+		2843E9AB2A8B7F9C00C5786F /* HumanFallDetectionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9AA2A8B7F9C00C5786F /* HumanFallDetectionUITestsLaunchTests.swift */; };
+		2843E9B12A8B7F9C00C5786F /* HumanFallDetection Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2843E9B02A8B7F9C00C5786F /* HumanFallDetection Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2843E9B62A8B7F9C00C5786F /* HumanFallDetectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9B52A8B7F9C00C5786F /* HumanFallDetectionApp.swift */; };
+		2843E9B82A8B7F9C00C5786F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9B72A8B7F9C00C5786F /* ContentView.swift */; };
+		2843E9BA2A8B7F9E00C5786F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843E9B92A8B7F9E00C5786F /* Assets.xcassets */; };
+		2843E9BD2A8B7F9F00C5786F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2843E9BC2A8B7F9F00C5786F /* Preview Assets.xcassets */; };
+		2843E9C72A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9C62A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift */; };
+		2843E9D12A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9D02A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift */; };
+		2843E9D32A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9D22A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2843E99B2A8B7F9C00C5786F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2843E9822A8B7F9900C5786F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2843E9892A8B7F9900C5786F;
+			remoteInfo = HumanFallDetection;
+		};
+		2843E9A52A8B7F9C00C5786F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2843E9822A8B7F9900C5786F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2843E9892A8B7F9900C5786F;
+			remoteInfo = HumanFallDetection;
+		};
+		2843E9B22A8B7F9C00C5786F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2843E9822A8B7F9900C5786F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2843E9AF2A8B7F9C00C5786F;
+			remoteInfo = "HumanFallDetection Watch App";
+		};
+		2843E9C32A8B7F9F00C5786F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2843E9822A8B7F9900C5786F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2843E9AF2A8B7F9C00C5786F;
+			remoteInfo = "HumanFallDetection Watch App";
+		};
+		2843E9CD2A8B7F9F00C5786F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2843E9822A8B7F9900C5786F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2843E9AF2A8B7F9C00C5786F;
+			remoteInfo = "HumanFallDetection Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2843E9D92A8B7F9F00C5786F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2843E9B12A8B7F9C00C5786F /* HumanFallDetection Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2843E98A2A8B7F9900C5786F /* HumanFallDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanFallDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2843E98D2A8B7F9900C5786F /* HumanFallDetectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetectionApp.swift; sourceTree = "<group>"; };
+		2843E98F2A8B7F9900C5786F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2843E9912A8B7F9C00C5786F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2843E9942A8B7F9C00C5786F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2843E99A2A8B7F9C00C5786F /* HumanFallDetectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanFallDetectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2843E99E2A8B7F9C00C5786F /* HumanFallDetectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetectionTests.swift; sourceTree = "<group>"; };
+		2843E9A42A8B7F9C00C5786F /* HumanFallDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HumanFallDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2843E9A82A8B7F9C00C5786F /* HumanFallDetectionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetectionUITests.swift; sourceTree = "<group>"; };
+		2843E9AA2A8B7F9C00C5786F /* HumanFallDetectionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetectionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2843E9B02A8B7F9C00C5786F /* HumanFallDetection Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HumanFallDetection Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2843E9B52A8B7F9C00C5786F /* HumanFallDetectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetectionApp.swift; sourceTree = "<group>"; };
+		2843E9B72A8B7F9C00C5786F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2843E9B92A8B7F9E00C5786F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2843E9BC2A8B7F9F00C5786F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2843E9C22A8B7F9F00C5786F /* HumanFallDetection Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HumanFallDetection Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2843E9C62A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetection_Watch_AppTests.swift; sourceTree = "<group>"; };
+		2843E9CC2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HumanFallDetection Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2843E9D02A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetection_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		2843E9D22A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetection_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2843E9872A8B7F9900C5786F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9972A8B7F9C00C5786F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9A12A8B7F9C00C5786F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9AD2A8B7F9C00C5786F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9BF2A8B7F9F00C5786F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9C92A8B7F9F00C5786F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2843E9812A8B7F9900C5786F = {
+			isa = PBXGroup;
+			children = (
+				2843E98C2A8B7F9900C5786F /* HumanFallDetection */,
+				2843E99D2A8B7F9C00C5786F /* HumanFallDetectionTests */,
+				2843E9A72A8B7F9C00C5786F /* HumanFallDetectionUITests */,
+				2843E9B42A8B7F9C00C5786F /* HumanFallDetection Watch App */,
+				2843E9C52A8B7F9F00C5786F /* HumanFallDetection Watch AppTests */,
+				2843E9CF2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests */,
+				2843E98B2A8B7F9900C5786F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2843E98B2A8B7F9900C5786F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2843E98A2A8B7F9900C5786F /* HumanFallDetection.app */,
+				2843E99A2A8B7F9C00C5786F /* HumanFallDetectionTests.xctest */,
+				2843E9A42A8B7F9C00C5786F /* HumanFallDetectionUITests.xctest */,
+				2843E9B02A8B7F9C00C5786F /* HumanFallDetection Watch App.app */,
+				2843E9C22A8B7F9F00C5786F /* HumanFallDetection Watch AppTests.xctest */,
+				2843E9CC2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2843E98C2A8B7F9900C5786F /* HumanFallDetection */ = {
+			isa = PBXGroup;
+			children = (
+				2843E98D2A8B7F9900C5786F /* HumanFallDetectionApp.swift */,
+				2843E98F2A8B7F9900C5786F /* ContentView.swift */,
+				2843E9912A8B7F9C00C5786F /* Assets.xcassets */,
+				2843E9932A8B7F9C00C5786F /* Preview Content */,
+			);
+			path = HumanFallDetection;
+			sourceTree = "<group>";
+		};
+		2843E9932A8B7F9C00C5786F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9942A8B7F9C00C5786F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2843E99D2A8B7F9C00C5786F /* HumanFallDetectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				2843E99E2A8B7F9C00C5786F /* HumanFallDetectionTests.swift */,
+			);
+			path = HumanFallDetectionTests;
+			sourceTree = "<group>";
+		};
+		2843E9A72A8B7F9C00C5786F /* HumanFallDetectionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9A82A8B7F9C00C5786F /* HumanFallDetectionUITests.swift */,
+				2843E9AA2A8B7F9C00C5786F /* HumanFallDetectionUITestsLaunchTests.swift */,
+			);
+			path = HumanFallDetectionUITests;
+			sourceTree = "<group>";
+		};
+		2843E9B42A8B7F9C00C5786F /* HumanFallDetection Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9B52A8B7F9C00C5786F /* HumanFallDetectionApp.swift */,
+				2843E9B72A8B7F9C00C5786F /* ContentView.swift */,
+				2843E9B92A8B7F9E00C5786F /* Assets.xcassets */,
+				2843E9BB2A8B7F9F00C5786F /* Preview Content */,
+			);
+			path = "HumanFallDetection Watch App";
+			sourceTree = "<group>";
+		};
+		2843E9BB2A8B7F9F00C5786F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9BC2A8B7F9F00C5786F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2843E9C52A8B7F9F00C5786F /* HumanFallDetection Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9C62A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift */,
+			);
+			path = "HumanFallDetection Watch AppTests";
+			sourceTree = "<group>";
+		};
+		2843E9CF2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9D02A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift */,
+				2843E9D22A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "HumanFallDetection Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2843E9892A8B7F9900C5786F /* HumanFallDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2843E9DA2A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection" */;
+			buildPhases = (
+				2843E9862A8B7F9900C5786F /* Sources */,
+				2843E9872A8B7F9900C5786F /* Frameworks */,
+				2843E9882A8B7F9900C5786F /* Resources */,
+				2843E9D92A8B7F9F00C5786F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2843E9B32A8B7F9C00C5786F /* PBXTargetDependency */,
+			);
+			name = HumanFallDetection;
+			productName = HumanFallDetection;
+			productReference = 2843E98A2A8B7F9900C5786F /* HumanFallDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2843E9992A8B7F9C00C5786F /* HumanFallDetectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2843E9DD2A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetectionTests" */;
+			buildPhases = (
+				2843E9962A8B7F9C00C5786F /* Sources */,
+				2843E9972A8B7F9C00C5786F /* Frameworks */,
+				2843E9982A8B7F9C00C5786F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2843E99C2A8B7F9C00C5786F /* PBXTargetDependency */,
+			);
+			name = HumanFallDetectionTests;
+			productName = HumanFallDetectionTests;
+			productReference = 2843E99A2A8B7F9C00C5786F /* HumanFallDetectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2843E9A32A8B7F9C00C5786F /* HumanFallDetectionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2843E9E02A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetectionUITests" */;
+			buildPhases = (
+				2843E9A02A8B7F9C00C5786F /* Sources */,
+				2843E9A12A8B7F9C00C5786F /* Frameworks */,
+				2843E9A22A8B7F9C00C5786F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2843E9A62A8B7F9C00C5786F /* PBXTargetDependency */,
+			);
+			name = HumanFallDetectionUITests;
+			productName = HumanFallDetectionUITests;
+			productReference = 2843E9A42A8B7F9C00C5786F /* HumanFallDetectionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2843E9AF2A8B7F9C00C5786F /* HumanFallDetection Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2843E9D62A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection Watch App" */;
+			buildPhases = (
+				2843E9AC2A8B7F9C00C5786F /* Sources */,
+				2843E9AD2A8B7F9C00C5786F /* Frameworks */,
+				2843E9AE2A8B7F9C00C5786F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HumanFallDetection Watch App";
+			productName = "HumanFallDetection Watch App";
+			productReference = 2843E9B02A8B7F9C00C5786F /* HumanFallDetection Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2843E9C12A8B7F9F00C5786F /* HumanFallDetection Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2843E9E32A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection Watch AppTests" */;
+			buildPhases = (
+				2843E9BE2A8B7F9F00C5786F /* Sources */,
+				2843E9BF2A8B7F9F00C5786F /* Frameworks */,
+				2843E9C02A8B7F9F00C5786F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2843E9C42A8B7F9F00C5786F /* PBXTargetDependency */,
+			);
+			name = "HumanFallDetection Watch AppTests";
+			productName = "HumanFallDetection Watch AppTests";
+			productReference = 2843E9C22A8B7F9F00C5786F /* HumanFallDetection Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2843E9CB2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2843E9E62A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection Watch AppUITests" */;
+			buildPhases = (
+				2843E9C82A8B7F9F00C5786F /* Sources */,
+				2843E9C92A8B7F9F00C5786F /* Frameworks */,
+				2843E9CA2A8B7F9F00C5786F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2843E9CE2A8B7F9F00C5786F /* PBXTargetDependency */,
+			);
+			name = "HumanFallDetection Watch AppUITests";
+			productName = "HumanFallDetection Watch AppUITests";
+			productReference = 2843E9CC2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2843E9822A8B7F9900C5786F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2843E9892A8B7F9900C5786F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2843E9992A8B7F9C00C5786F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2843E9892A8B7F9900C5786F;
+					};
+					2843E9A32A8B7F9C00C5786F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2843E9892A8B7F9900C5786F;
+					};
+					2843E9AF2A8B7F9C00C5786F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2843E9C12A8B7F9F00C5786F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2843E9AF2A8B7F9C00C5786F;
+					};
+					2843E9CB2A8B7F9F00C5786F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2843E9AF2A8B7F9C00C5786F;
+					};
+				};
+			};
+			buildConfigurationList = 2843E9852A8B7F9900C5786F /* Build configuration list for PBXProject "HumanFallDetection" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2843E9812A8B7F9900C5786F;
+			productRefGroup = 2843E98B2A8B7F9900C5786F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2843E9892A8B7F9900C5786F /* HumanFallDetection */,
+				2843E9992A8B7F9C00C5786F /* HumanFallDetectionTests */,
+				2843E9A32A8B7F9C00C5786F /* HumanFallDetectionUITests */,
+				2843E9AF2A8B7F9C00C5786F /* HumanFallDetection Watch App */,
+				2843E9C12A8B7F9F00C5786F /* HumanFallDetection Watch AppTests */,
+				2843E9CB2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2843E9882A8B7F9900C5786F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9952A8B7F9C00C5786F /* Preview Assets.xcassets in Resources */,
+				2843E9922A8B7F9C00C5786F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9982A8B7F9C00C5786F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9A22A8B7F9C00C5786F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9AE2A8B7F9C00C5786F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9BD2A8B7F9F00C5786F /* Preview Assets.xcassets in Resources */,
+				2843E9BA2A8B7F9E00C5786F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9C02A8B7F9F00C5786F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9CA2A8B7F9F00C5786F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2843E9862A8B7F9900C5786F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9902A8B7F9900C5786F /* ContentView.swift in Sources */,
+				2843E98E2A8B7F9900C5786F /* HumanFallDetectionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9962A8B7F9C00C5786F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E99F2A8B7F9C00C5786F /* HumanFallDetectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9A02A8B7F9C00C5786F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9A92A8B7F9C00C5786F /* HumanFallDetectionUITests.swift in Sources */,
+				2843E9AB2A8B7F9C00C5786F /* HumanFallDetectionUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9AC2A8B7F9C00C5786F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9B82A8B7F9C00C5786F /* ContentView.swift in Sources */,
+				2843E9B62A8B7F9C00C5786F /* HumanFallDetectionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9BE2A8B7F9F00C5786F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9C72A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2843E9C82A8B7F9F00C5786F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843E9D12A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift in Sources */,
+				2843E9D32A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2843E99C2A8B7F9C00C5786F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2843E9892A8B7F9900C5786F /* HumanFallDetection */;
+			targetProxy = 2843E99B2A8B7F9C00C5786F /* PBXContainerItemProxy */;
+		};
+		2843E9A62A8B7F9C00C5786F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2843E9892A8B7F9900C5786F /* HumanFallDetection */;
+			targetProxy = 2843E9A52A8B7F9C00C5786F /* PBXContainerItemProxy */;
+		};
+		2843E9B32A8B7F9C00C5786F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2843E9AF2A8B7F9C00C5786F /* HumanFallDetection Watch App */;
+			targetProxy = 2843E9B22A8B7F9C00C5786F /* PBXContainerItemProxy */;
+		};
+		2843E9C42A8B7F9F00C5786F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2843E9AF2A8B7F9C00C5786F /* HumanFallDetection Watch App */;
+			targetProxy = 2843E9C32A8B7F9F00C5786F /* PBXContainerItemProxy */;
+		};
+		2843E9CE2A8B7F9F00C5786F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2843E9AF2A8B7F9C00C5786F /* HumanFallDetection Watch App */;
+			targetProxy = 2843E9CD2A8B7F9F00C5786F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2843E9D42A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2843E9D52A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2843E9D72A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanFallDetection Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HumanFallDetection;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.24care.HumanFallDetection;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetection.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2843E9D82A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanFallDetection Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HumanFallDetection;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = me.24care.HumanFallDetection;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetection.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2843E9DB2A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanFallDetection/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HumanFallDetection;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2843E9DC2A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HumanFallDetection/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = HumanFallDetection;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2843E9DE2A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanFallDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanFallDetection";
+			};
+			name = Debug;
+		};
+		2843E9DF2A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetectionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanFallDetection.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanFallDetection";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2843E9E12A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanFallDetection;
+			};
+			name = Debug;
+		};
+		2843E9E22A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.24care.HumanFallDetectionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HumanFallDetection;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2843E9E42A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.24care.HumanFallDetection-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanFallDetection Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanFallDetection Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2843E9E52A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.24care.HumanFallDetection-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HumanFallDetection Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HumanFallDetection Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		2843E9E72A8B7F9F00C5786F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.24care.HumanFallDetection-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HumanFallDetection Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		2843E9E82A8B7F9F00C5786F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.24care.HumanFallDetection-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "HumanFallDetection Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2843E9852A8B7F9900C5786F /* Build configuration list for PBXProject "HumanFallDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9D42A8B7F9F00C5786F /* Debug */,
+				2843E9D52A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2843E9D62A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9D72A8B7F9F00C5786F /* Debug */,
+				2843E9D82A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2843E9DA2A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9DB2A8B7F9F00C5786F /* Debug */,
+				2843E9DC2A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2843E9DD2A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9DE2A8B7F9F00C5786F /* Debug */,
+				2843E9DF2A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2843E9E02A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetectionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9E12A8B7F9F00C5786F /* Debug */,
+				2843E9E22A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2843E9E32A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9E42A8B7F9F00C5786F /* Debug */,
+				2843E9E52A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2843E9E62A8B7F9F00C5786F /* Build configuration list for PBXNativeTarget "HumanFallDetection Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2843E9E72A8B7F9F00C5786F /* Debug */,
+				2843E9E82A8B7F9F00C5786F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2843E9822A8B7F9900C5786F /* Project object */;
+}
