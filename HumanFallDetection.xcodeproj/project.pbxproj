@@ -22,6 +22,10 @@
 		2843E9C72A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9C62A8B7F9F00C5786F /* HumanFallDetection_Watch_AppTests.swift */; };
 		2843E9D12A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9D02A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift */; };
 		2843E9D32A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9D22A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift */; };
+		2843E9EC2A8C559A00C5786F /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9EB2A8C559A00C5786F /* Sensor.swift */; };
+		2843E9EE2A8CAE7800C5786F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9ED2A8CAE7800C5786F /* LandmarksApp.swift */; };
+		2843E9F02A8CD13300C5786F /* LocateParkingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9EF2A8CD13300C5786F /* LocateParkingButton.swift */; };
+		28E6F7402A8DAE9E00F8E213 /* LocateParkingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843E9EF2A8CD13300C5786F /* LocateParkingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +101,9 @@
 		2843E9CC2A8B7F9F00C5786F /* HumanFallDetection Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HumanFallDetection Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2843E9D02A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetection_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		2843E9D22A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanFallDetection_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2843E9EB2A8C559A00C5786F /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
+		2843E9ED2A8CAE7800C5786F /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
+		2843E9EF2A8CD13300C5786F /* LocateParkingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateParkingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +184,7 @@
 				2843E98D2A8B7F9900C5786F /* HumanFallDetectionApp.swift */,
 				2843E98F2A8B7F9900C5786F /* ContentView.swift */,
 				2843E9912A8B7F9C00C5786F /* Assets.xcassets */,
+				2843E9F12A8DA5D000C5786F /* View */,
 				2843E9932A8B7F9C00C5786F /* Preview Content */,
 			);
 			path = HumanFallDetection;
@@ -211,7 +219,8 @@
 			isa = PBXGroup;
 			children = (
 				2843E9B52A8B7F9C00C5786F /* HumanFallDetectionApp.swift */,
-				2843E9B72A8B7F9C00C5786F /* ContentView.swift */,
+				2843E9EA2A8BA75800C5786F /* Model */,
+				2843E9E92A8BA72600C5786F /* View */,
 				2843E9B92A8B7F9E00C5786F /* Assets.xcassets */,
 				2843E9BB2A8B7F9F00C5786F /* Preview Content */,
 			);
@@ -241,6 +250,31 @@
 				2843E9D22A8B7F9F00C5786F /* HumanFallDetection_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "HumanFallDetection Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		2843E9E92A8BA72600C5786F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9B72A8B7F9C00C5786F /* ContentView.swift */,
+				2843E9EF2A8CD13300C5786F /* LocateParkingButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2843E9EA2A8BA75800C5786F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2843E9EB2A8C559A00C5786F /* Sensor.swift */,
+				2843E9ED2A8CAE7800C5786F /* LandmarksApp.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2843E9F12A8DA5D000C5786F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -465,6 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28E6F7402A8DAE9E00F8E213 /* LocateParkingButton.swift in Sources */,
 				2843E9902A8B7F9900C5786F /* ContentView.swift in Sources */,
 				2843E98E2A8B7F9900C5786F /* HumanFallDetectionApp.swift in Sources */,
 			);
@@ -492,7 +527,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2843E9B82A8B7F9C00C5786F /* ContentView.swift in Sources */,
+				2843E9F02A8CD13300C5786F /* LocateParkingButton.swift in Sources */,
+				2843E9EC2A8C559A00C5786F /* Sensor.swift in Sources */,
 				2843E9B62A8B7F9C00C5786F /* HumanFallDetectionApp.swift in Sources */,
+				2843E9EE2A8CAE7800C5786F /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
